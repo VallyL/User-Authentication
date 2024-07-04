@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #00224d;
+}
+fieldset {
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  border: 1px solid #ff204e;
+}
+fieldset > input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: 1px solid #ff204e;
+  color: white;
+  background-image: linear-gradient(45deg, #ff204e, #a0153e, #5d0e41, #00224d);
+}
+fieldset > button {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ff204e;
+  color: white;
+  background-image: linear-gradient(45deg, #00224d, #5d0e41, #a0153e, #ff204e);
+  cursor: pointer;
+}
+.logingIn {
+  margin-top: 40px;
+}
+.siningUp {
+  margin-top: 10%;
+}
